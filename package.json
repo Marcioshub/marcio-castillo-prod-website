@@ -12,10 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "helmet": "^4.6.0",
-    "hpp": "^0.2.3",
-    "xss": "^1.0.10"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.13"

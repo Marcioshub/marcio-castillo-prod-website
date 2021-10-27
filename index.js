@@ -1,22 +1,33 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
-const helmet = require("helmet");
-const xss = require("xss-clean");
-const hpp = require("hpp");
+// const helmet = require("helmet");
+// const xss = require("xss-clean");
+// const hpp = require("hpp");
 require("dotenv").config();
 const app = express();
 
 app.use(express.json());
 
+// app.use(
+//   helmet({
+//     contentSecurityPolicy: {
+//       directives: {
+//         ...helmet.contentSecurityPolicy.getDefaultDirectives(),
+//         "script-src": ["'self'", "'unsafe-inline'", "marciocastillo.com"],
+//       },
+//     },
+//   })
+// );
+
 // set security headers
-app.use(helmet());
+// app.use(helmet());
 
 // prevent XSS attacks
-app.use(xss());
+// app.use(xss());
 
 // prevent httP param pollution
-app.use(hpp());
+// app.use(hpp());
 
 app.post("/api/contactform", (req, res) => {
   try {
