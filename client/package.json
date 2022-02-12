@@ -19,7 +19,7 @@
     "react-dom": "^17.0.2",
     "react-markdown": "^6.0.2",
     "react-on-screen": "^2.1.1",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.2",
     "react-slick": "^0.28.1",
@@ -49,5 +49,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "http://localhost:5001"
 }

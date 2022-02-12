@@ -5,6 +5,24 @@ import Timeline from "../elements/Timeline";
 const educationData = [
   {
     id: 1,
+    title: "CISSP",
+    years: "2022",
+    content: "Currently in process...",
+  },
+  {
+    id: 2,
+    title: "PenTest+",
+    years: "2022",
+    content: "Currently in process...",
+  },
+  {
+    id: 3,
+    title: "Security+",
+    years: "2022",
+    content: "Currently in process...",
+  },
+  {
+    id: 4,
     title: "B.S. in Computer Science",
     years: "2013 - 2017",
     content: "GPA: 3.5",
