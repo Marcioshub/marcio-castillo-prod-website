@@ -25,7 +25,7 @@ const servicesData = [
   {
     id: 3,
     icon: "images/hacker.png", //"images/service-3.svg",
-    title: "Ethical Hacking",
+    title: "Cyber Security",
     content:
       "Solid knowledge about ethical hacking, penetration testing, vulnerability management, network security",
     color: "#F97B8B",

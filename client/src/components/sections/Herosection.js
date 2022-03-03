@@ -40,7 +40,7 @@ function Herosection(props) {
                 "Full-Stack developer",
                 "QA Engineer",
                 "Ethical Hacker",
-                "Penetration Tester",
+                "Cyber Security",
                 "Programmer",
               ]}
               typeSpeed={80}
