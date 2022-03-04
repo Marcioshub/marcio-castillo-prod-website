@@ -29,6 +29,14 @@ const filters = [
 const allData = [
   {
     id: 1,
+    title: "Zippy ransom",
+    category: "hacking",
+    image: "images/works/zipper.png",
+    popupLink: ["images/works/1.svg"],
+    link: "https://github.com/Marcioshub/zippy-ransom",
+  },
+  {
+    id: 2,
     title: "3D Covid 19 cases around the world",
     category: "frontend",
     image: "images/works/covid.png",
@@ -36,7 +44,7 @@ const allData = [
     link: "https://c19.marciocastillo.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Ransomware Encryptor",
     category: "hacking",
     image: "images/works/encryption.jpeg",
@@ -48,7 +56,7 @@ const allData = [
     link: "https://github.com/Marcioshub/encrypt-decrypt-py",
   },
   {
-    id: 3,
+    id: 4,
     title: "Rate my recruiters",
     category: "full-stack",
     image: "images/works/recruiters.png",
@@ -60,7 +68,7 @@ const allData = [
     link: "https://rmr.marciocastillo.com/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Parking Lot Inventory",
     category: "full-stack",
     image: "images/works/stlogo.png",
@@ -68,7 +76,7 @@ const allData = [
     link: "https://stparkinglog.marciocastillo.com/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Alan AI News",
     category: "frontend",
     image: "images/works/alan-ai-logo.png",
@@ -79,7 +87,7 @@ const allData = [
     link: "https://alanai.marciocastillo.com",
   },
   {
-    id: 6,
+    id: 7,
     title: "Raspberry Pi Reverse Shell",
     category: "hacking",
     image: "images/works/rpi4.png",
@@ -87,7 +95,7 @@ const allData = [
     link: "https://github.com/Marcioshub/reverse-ssh-shell",
   },
   {
-    id: 7,
+    id: 8,
     title: "Raspberry Pi Worm",
     category: "hacking",
     image: "images/works/worm.png",
@@ -95,7 +103,7 @@ const allData = [
     link: "https://github.com/Marcioshub/raspberry_pi_worm",
   },
   {
-    id: 8,
+    id: 9,
     title: "Remote Access Tool (RAT)",
     category: "hacking",
     image: "images/works/rat.jpg",
@@ -103,28 +111,28 @@ const allData = [
     link: "https://github.com/Marcioshub/rat",
   },
   {
-    id: 9,
+    id: 10,
     title: "GIPHY Finder",
     category: "frontend",
     image: "images/works/giphy-logo.png",
     link: "https://marcioshub.github.io/random-gifs/",
   },
   {
-    id: 10,
+    id: 11,
     title: "URL Shortener",
     category: "full-stack",
     image: "images/works/shorturl.png",
     link: "https://su.marciocastillo.com/",
   },
   {
-    id: 11,
+    id: 12,
     title: "Python keylogger",
     category: "hacking",
     image: "images/works/keylogger.jpeg",
     link: "https://github.com/Marcioshub/keylogger",
   },
   {
-    id: 12,
+    id: 13,
     title: "Chat Room App",
     category: "full-stack",
     image: "images/works/chatapp.png",
@@ -132,21 +140,21 @@ const allData = [
     link: "https://chatapp.marciocastillo.com/",
   },
   {
-    id: 13,
+    id: 14,
     title: "Codepen Clone",
     category: "frontend",
     image: "images/works/codepen.png",
     link: "https://condescending-lichterman-1908be.netlify.app/",
   },
   {
-    id: 14,
+    id: 15,
     title: "Remote Control Code Finder",
     category: "frontend",
     image: "images/works/beam.png",
     link: "https://nifty-lovelace-be0886.netlify.app/",
   },
   {
-    id: 15,
+    id: 16,
     title: "Sneaker Bot Demo",
     category: "backend",
     image: "images/works/supreme.png",
@@ -154,7 +162,7 @@ const allData = [
     link: "https://github.com/Marcioshub/supreme-checkout",
   },
   {
-    id: 16,
+    id: 17,
     title: "Crypto Ticker",
     category: "frontend",
     image: "images/works/crypto.png",
