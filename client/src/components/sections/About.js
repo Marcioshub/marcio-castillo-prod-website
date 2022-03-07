@@ -54,8 +54,8 @@ const counterData = [
   },
   {
     id: 4,
-    title: "Nominees winner",
-    count: 35,
+    title: "Completed CTFs",
+    count: 50,
     icon: "icon-badge",
   },
 ];
