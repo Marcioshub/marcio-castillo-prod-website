@@ -46,20 +46,27 @@ const educationData = [
 const experienceData = [
   {
     id: 1,
+    title: "Information Technology Specialist 2",
+    years: "2022 - Current",
+    content:
+      "Devoted to providing securing user access to NYSIF systems. Responsible for the technical aspects of implementing and maintaining user identity and access management practices and controls. Assisting with planning, designing, and executing the automation of user account creation and system entitlements provisioning/de-provisioning lifecycle through NYSIF’s identity management solution, Omada. Assisting with documenting, defining, implementing, and maintaining effective and automated solutions to internal control processes and procedures using various tools, such as Omada, ServiceNow and Ansible. Facilitating and supporting security compliance through the monitoring and reporting of the various identity access management systems. Effectively addressing the demands and complexities of NYSIF’s identity and access management program.",
+  },
+  {
+    id: 2,
     title: "Full Stack Developer",
     years: "2020 - 2021",
     content:
       "Create the client-side state handler using redux, modify the authentication scheme with express sessions and mongoDB, ensuring applications securely interact with multiple APIs and the database, managing the Linux server hosted on Digital Ocean. writing unit tests for both client and server-side code.",
   },
   {
-    id: 2,
+    id: 3,
     title: "QA Enigneer & Web Developer",
     years: "2016 - 2020",
     content:
       "Created the logging and managing system for parking lot attendance of the company, managed the development of web applications, mobile apps, and hardware, oversaw creation of user guides and manuals for all electronic and software products, costumer returns dropped significantly during my tenure as the QA Engineer.",
   },
   {
-    id: 3,
+    id: 4,
     title: "IT Technician",
     years: "2013 - 2016",
     content:
