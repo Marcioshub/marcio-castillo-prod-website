@@ -3,29 +3,29 @@ import Pagetitle from "../elements/Pagetitle";
 import Timeline from "../elements/Timeline";
 
 const educationData = [
-  {
-    id: 1,
-    title: "CISSP",
-    years: "2022",
-    content: "Currently in process...",
-  },
-  {
-    id: 2,
-    title: "PenTest+",
-    years: "2022",
-    content: "Currently in process...",
-  },
-  {
-    id: 3,
-    title: "Security+",
-    years: "2022",
-    content: "Currently in process...",
-  },
+  // {
+  //   id: 1,
+  //   title: "CISSP",
+  //   years: "2022",
+  //   content: "Currently in process...",
+  // },
+  // {
+  //   id: 2,
+  //   title: "PenTest+",
+  //   years: "2022",
+  //   content: "Currently in process...",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Security+",
+  //   years: "2022",
+  //   content: "Currently in process...",
+  // },
   {
     id: 4,
-    title: "B.S. in Computer Science",
+    title: "Brooklyn College",
     years: "2013 - 2017",
-    content: "GPA: 3.5",
+    content: "B.S. in Computer Science",
   },
   // {
   //   id: 2,
@@ -46,7 +46,7 @@ const educationData = [
 const experienceData = [
   {
     id: 1,
-    title: "Information Technology Specialist 2",
+    title: "Information Technology Specialist 2 (Programmer)",
     years: "2022 - Current",
     content:
       "Devoted to providing securing user access to NYSIF systems. Responsible for the technical aspects of implementing and maintaining user identity and access management practices and controls. Assisting with planning, designing, and executing the automation of user account creation and system entitlements provisioning/de-provisioning lifecycle through NYSIF’s identity management solution, Omada. Assisting with documenting, defining, implementing, and maintaining effective and automated solutions to internal control processes and procedures using various tools, such as Omada, ServiceNow and Ansible. Facilitating and supporting security compliance through the monitoring and reporting of the various identity access management systems. Effectively addressing the demands and complexities of NYSIF’s identity and access management program.",
@@ -80,6 +80,31 @@ function Experiences() {
       <div className="container">
         <Pagetitle title="Experience" />
         <div className="row">
+          <div className="spacer d-md-none d-lg-none" data-height="30"></div>
+          <div className="timeline exp bg-white rounded shadow-dark padding-30 overflow-hidden">
+            {experienceData.map((experience) => (
+              <Timeline key={experience.id} education={experience} />
+            ))}
+            <span className="line"></span>
+          </div>
+        </div>
+        <br />
+        <div className="spacer d-md-none d-lg-none" data-height="30"></div>
+        <div className="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
+          {educationData.map((education) => (
+            <Timeline key={education.id} education={education} />
+          ))}
+          <span className="line"></span>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Experiences;
+
+{
+  /* <div className="row">
           <div className="col-md-6">
             <div className="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
               {educationData.map((education) => (
@@ -98,10 +123,5 @@ function Experiences() {
               <span className="line"></span>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-  );
+        </div> */
 }
-
-export default Experiences;

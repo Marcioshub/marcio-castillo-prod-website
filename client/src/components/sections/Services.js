@@ -18,7 +18,7 @@ const servicesData = [
     icon: "images/service-2.svg",
     title: "Back-End Development",
     content:
-      "Over 5 years of experience using Nodejs, Express, Python, SQL, NOSQL, Firebase, and working with Linux servers",
+      "Over 5 years of experience using Nodejs, Express, Python, SQL, NoSQL, Firebase, and working with Linux servers",
     color: "#F9D74C",
     contentColor: "dark",
   },
