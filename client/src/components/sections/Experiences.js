@@ -89,12 +89,14 @@ function Experiences() {
           </div>
         </div>
         <br />
-        <div className="spacer d-md-none d-lg-none" data-height="30"></div>
-        <div className="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
-          {educationData.map((education) => (
-            <Timeline key={education.id} education={education} />
-          ))}
-          <span className="line"></span>
+        <div className="row">
+          <div className="spacer d-md-none d-lg-none" data-height="30"></div>
+          <div className="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
+            {educationData.map((education) => (
+              <Timeline key={education.id} education={education} />
+            ))}
+            <span className="line"></span>
+          </div>
         </div>
       </div>
     </section>
@@ -102,26 +104,3 @@ function Experiences() {
 }
 
 export default Experiences;
-
-{
-  /* <div className="row">
-          <div className="col-md-6">
-            <div className="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
-              {educationData.map((education) => (
-                <Timeline key={education.id} education={education} />
-              ))}
-              <span className="line"></span>
-            </div>
-          </div>
-
-          <div className="col-md-6">
-            <div className="spacer d-md-none d-lg-none" data-height="30"></div>
-            <div className="timeline exp bg-white rounded shadow-dark padding-30 overflow-hidden">
-              {experienceData.map((experience) => (
-                <Timeline key={experience.id} education={experience} />
-              ))}
-              <span className="line"></span>
-            </div>
-          </div>
-        </div> */
-}
